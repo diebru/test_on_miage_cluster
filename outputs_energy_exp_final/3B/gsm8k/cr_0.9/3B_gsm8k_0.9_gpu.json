@@ -1,0 +1,22 @@
+[
+  {
+    "timestamp": "2026-03-10T10:29:16.463503",
+    "index": 0,
+    "name": " NVIDIA RTX A6000",
+    "power_draw": 21.48,
+    "power_limit": 300.0,
+    "gpu_utilization": 0.0,
+    "memory_utilization": 0.0,
+    "memory_used": 2.0,
+    "memory_total": 49140.0,
+    "temperature": 33.0,
+    "graphics_clock": 0.0,
+    "memory_clock": 405.0,
+    "max_graphics_clock": 2100.0,
+    "max_memory_clock": 8001.0,
+    "fan_speed": 30.0,
+    "compute_mode": " Default",
+    "driver_version": " 550.163.01",
+    "pstate": " P8\n2026/03/10 10:29:16.456"
+  }
+]
