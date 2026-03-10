@@ -35,6 +35,10 @@ ADAPTER_BASE_DIR="models/TokenSkip-Qwen2.5"
 OUTPUT_BASE="outputs_energy_exp_final"
 mkdir -p $OUTPUT_BASE
 
+# --- ATTIVAZIONE AMBIENTE VIRTUAL ---
+source /home/bd510854/first_try/tokenskip_env/bin/activate
+echo " >> Ambiente virtuale tokenskip_env attivato."
+
 # --- INIZIO CICLI ---
 for SIZE in "${MODELS[@]}"; do
     echo "Configurazione modello: $SIZE"

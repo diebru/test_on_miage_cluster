@@ -1,0 +1,1640 @@
+[
+  {
+    "timestamp": 1773139931.2312,
+    "gpu_0_watt": 31.027,
+    "gpu_0_temp": 73,
+    "gpu_1_watt": 19.978,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139931.732159,
+    "gpu_0_watt": 30.32,
+    "gpu_0_temp": 73,
+    "gpu_1_watt": 19.978,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139932.2326834,
+    "gpu_0_watt": 30.32,
+    "gpu_0_temp": 71,
+    "gpu_1_watt": 19.98,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139932.733234,
+    "gpu_0_watt": 30.249,
+    "gpu_0_temp": 71,
+    "gpu_1_watt": 19.98,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139933.2337687,
+    "gpu_0_watt": 30.249,
+    "gpu_0_temp": 71,
+    "gpu_1_watt": 20.073,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139933.7342505,
+    "gpu_0_watt": 30.171,
+    "gpu_0_temp": 70,
+    "gpu_1_watt": 19.957,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139934.2575223,
+    "gpu_0_watt": 30.171,
+    "gpu_0_temp": 70,
+    "gpu_1_watt": 19.957,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139934.7579434,
+    "gpu_0_watt": 29.808,
+    "gpu_0_temp": 70,
+    "gpu_1_watt": 19.961,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139935.2589345,
+    "gpu_0_watt": 29.808,
+    "gpu_0_temp": 70,
+    "gpu_1_watt": 19.961,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139935.7594573,
+    "gpu_0_watt": 29.705,
+    "gpu_0_temp": 69,
+    "gpu_1_watt": 20.067,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139936.260051,
+    "gpu_0_watt": 29.705,
+    "gpu_0_temp": 69,
+    "gpu_1_watt": 20.067,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139936.8969953,
+    "gpu_0_watt": 29.308,
+    "gpu_0_temp": 69,
+    "gpu_1_watt": 19.97,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139937.4767084,
+    "gpu_0_watt": 30.256,
+    "gpu_0_temp": 69,
+    "gpu_1_watt": 19.97,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139937.977224,
+    "gpu_0_watt": 54.425,
+    "gpu_0_temp": 70,
+    "gpu_1_watt": 19.978,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139938.4778473,
+    "gpu_0_watt": 89.002,
+    "gpu_0_temp": 70,
+    "gpu_1_watt": 19.978,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139938.97833,
+    "gpu_0_watt": 101.515,
+    "gpu_0_temp": 70,
+    "gpu_1_watt": 20.063,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139939.4788108,
+    "gpu_0_watt": 101.276,
+    "gpu_0_temp": 70,
+    "gpu_1_watt": 20.063,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139939.979578,
+    "gpu_0_watt": 100.903,
+    "gpu_0_temp": 70,
+    "gpu_1_watt": 19.946,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139940.4802225,
+    "gpu_0_watt": 101.039,
+    "gpu_0_temp": 70,
+    "gpu_1_watt": 19.946,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139940.981989,
+    "gpu_0_watt": 100.529,
+    "gpu_0_temp": 70,
+    "gpu_1_watt": 19.963,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139941.4823074,
+    "gpu_0_watt": 154.529,
+    "gpu_0_temp": 75,
+    "gpu_1_watt": 19.963,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139941.982848,
+    "gpu_0_watt": 210.093,
+    "gpu_0_temp": 72,
+    "gpu_1_watt": 20.053,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139942.4832416,
+    "gpu_0_watt": 179.02,
+    "gpu_0_temp": 71,
+    "gpu_1_watt": 20.053,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139942.9837499,
+    "gpu_0_watt": 114.989,
+    "gpu_0_temp": 71,
+    "gpu_1_watt": 19.957,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139943.4855382,
+    "gpu_0_watt": 109.29,
+    "gpu_0_temp": 70,
+    "gpu_1_watt": 19.957,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139943.9860678,
+    "gpu_0_watt": 106.5,
+    "gpu_0_temp": 70,
+    "gpu_1_watt": 19.962,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139944.487554,
+    "gpu_0_watt": 101.148,
+    "gpu_0_temp": 70,
+    "gpu_1_watt": 19.962,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139945.054643,
+    "gpu_0_watt": 114.257,
+    "gpu_0_temp": 70,
+    "gpu_1_watt": 20.065,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139945.6381843,
+    "gpu_0_watt": 147.015,
+    "gpu_0_temp": 70,
+    "gpu_1_watt": 20.065,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139946.2311208,
+    "gpu_0_watt": 133.676,
+    "gpu_0_temp": 70,
+    "gpu_1_watt": 20.069,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139946.8337264,
+    "gpu_0_watt": 146.201,
+    "gpu_0_temp": 70,
+    "gpu_1_watt": 20.203,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139947.3343172,
+    "gpu_0_watt": 152.598,
+    "gpu_0_temp": 73,
+    "gpu_1_watt": 20.203,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139947.93758,
+    "gpu_0_watt": 144.355,
+    "gpu_0_temp": 70,
+    "gpu_1_watt": 20.302,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139948.5397198,
+    "gpu_0_watt": 141.09,
+    "gpu_0_temp": 70,
+    "gpu_1_watt": 20.302,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139949.1367967,
+    "gpu_0_watt": 139.099,
+    "gpu_0_temp": 70,
+    "gpu_1_watt": 20.114,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139949.732409,
+    "gpu_0_watt": 137.761,
+    "gpu_0_temp": 69,
+    "gpu_1_watt": 20.114,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139950.3377075,
+    "gpu_0_watt": 134.865,
+    "gpu_0_temp": 69,
+    "gpu_1_watt": 20.039,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139950.9376729,
+    "gpu_0_watt": 128.855,
+    "gpu_0_temp": 69,
+    "gpu_1_watt": 20.087,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139951.5290322,
+    "gpu_0_watt": 128.705,
+    "gpu_0_temp": 69,
+    "gpu_1_watt": 20.087,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139952.1280622,
+    "gpu_0_watt": 130.151,
+    "gpu_0_temp": 69,
+    "gpu_1_watt": 19.963,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139952.7194555,
+    "gpu_0_watt": 129.691,
+    "gpu_0_temp": 69,
+    "gpu_1_watt": 19.963,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139953.3048296,
+    "gpu_0_watt": 136.939,
+    "gpu_0_temp": 69,
+    "gpu_1_watt": 19.974,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139953.893704,
+    "gpu_0_watt": 134.053,
+    "gpu_0_temp": 69,
+    "gpu_1_watt": 20.072,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139954.4870641,
+    "gpu_0_watt": 130.565,
+    "gpu_0_temp": 69,
+    "gpu_1_watt": 20.072,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139955.0704284,
+    "gpu_0_watt": 125.576,
+    "gpu_0_temp": 69,
+    "gpu_1_watt": 19.932,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139955.6658893,
+    "gpu_0_watt": 123.221,
+    "gpu_0_temp": 68,
+    "gpu_1_watt": 19.932,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139956.1666517,
+    "gpu_0_watt": 111.238,
+    "gpu_0_temp": 68,
+    "gpu_1_watt": 19.942,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139956.667547,
+    "gpu_0_watt": 102.423,
+    "gpu_0_temp": 72,
+    "gpu_1_watt": 19.942,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139957.168059,
+    "gpu_0_watt": 197.01,
+    "gpu_0_temp": 74,
+    "gpu_1_watt": 20.051,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139957.6686625,
+    "gpu_0_watt": 288.301,
+    "gpu_0_temp": 74,
+    "gpu_1_watt": 20.051,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139958.169206,
+    "gpu_0_watt": 299.517,
+    "gpu_0_temp": 75,
+    "gpu_1_watt": 19.95,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139958.6700823,
+    "gpu_0_watt": 298.656,
+    "gpu_0_temp": 75,
+    "gpu_1_watt": 19.95,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139959.1705887,
+    "gpu_0_watt": 299.376,
+    "gpu_0_temp": 75,
+    "gpu_1_watt": 19.964,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139959.6710796,
+    "gpu_0_watt": 299.122,
+    "gpu_0_temp": 75,
+    "gpu_1_watt": 19.964,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139960.1794815,
+    "gpu_0_watt": 299.774,
+    "gpu_0_temp": 76,
+    "gpu_1_watt": 19.93,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139960.6829183,
+    "gpu_0_watt": 296.822,
+    "gpu_0_temp": 76,
+    "gpu_1_watt": 19.93,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139961.1900072,
+    "gpu_0_watt": 291.071,
+    "gpu_0_temp": 76,
+    "gpu_1_watt": 19.917,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139961.6990435,
+    "gpu_0_watt": 288.18,
+    "gpu_0_temp": 76,
+    "gpu_1_watt": 19.917,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139962.2000973,
+    "gpu_0_watt": 289.863,
+    "gpu_0_temp": 76,
+    "gpu_1_watt": 19.993,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139962.7006397,
+    "gpu_0_watt": 292.232,
+    "gpu_0_temp": 76,
+    "gpu_1_watt": 19.993,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139963.201039,
+    "gpu_0_watt": 292.164,
+    "gpu_0_temp": 76,
+    "gpu_1_watt": 19.822,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139963.7014654,
+    "gpu_0_watt": 289.888,
+    "gpu_0_temp": 77,
+    "gpu_1_watt": 19.822,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139964.2018843,
+    "gpu_0_watt": 290.459,
+    "gpu_0_temp": 76,
+    "gpu_1_watt": 19.828,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139964.8429368,
+    "gpu_0_watt": 263.921,
+    "gpu_0_temp": 73,
+    "gpu_1_watt": 19.958,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139965.3507602,
+    "gpu_0_watt": 257.931,
+    "gpu_0_temp": 76,
+    "gpu_1_watt": 19.958,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139965.8574846,
+    "gpu_0_watt": 267.696,
+    "gpu_0_temp": 77,
+    "gpu_1_watt": 19.904,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139966.3592148,
+    "gpu_0_watt": 289.967,
+    "gpu_0_temp": 77,
+    "gpu_1_watt": 19.904,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139966.8597233,
+    "gpu_0_watt": 292.847,
+    "gpu_0_temp": 77,
+    "gpu_1_watt": 19.911,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139967.3609755,
+    "gpu_0_watt": 292.983,
+    "gpu_0_temp": 78,
+    "gpu_1_watt": 19.911,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139967.8614442,
+    "gpu_0_watt": 293.176,
+    "gpu_0_temp": 77,
+    "gpu_1_watt": 19.957,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139968.3650858,
+    "gpu_0_watt": 293.448,
+    "gpu_0_temp": 78,
+    "gpu_1_watt": 19.957,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139968.8655605,
+    "gpu_0_watt": 294.042,
+    "gpu_0_temp": 78,
+    "gpu_1_watt": 19.846,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139969.365998,
+    "gpu_0_watt": 292.822,
+    "gpu_0_temp": 77,
+    "gpu_1_watt": 19.846,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139969.8664508,
+    "gpu_0_watt": 289.752,
+    "gpu_0_temp": 78,
+    "gpu_1_watt": 19.885,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139970.3704574,
+    "gpu_0_watt": 290.561,
+    "gpu_0_temp": 78,
+    "gpu_1_watt": 19.885,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139970.8736532,
+    "gpu_0_watt": 291.522,
+    "gpu_0_temp": 79,
+    "gpu_1_watt": 19.975,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139971.3740091,
+    "gpu_0_watt": 292.055,
+    "gpu_0_temp": 78,
+    "gpu_1_watt": 19.975,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139971.874488,
+    "gpu_0_watt": 293.867,
+    "gpu_0_temp": 79,
+    "gpu_1_watt": 19.848,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139972.3749208,
+    "gpu_0_watt": 293.27,
+    "gpu_0_temp": 78,
+    "gpu_1_watt": 19.848,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139972.876439,
+    "gpu_0_watt": 292.175,
+    "gpu_0_temp": 79,
+    "gpu_1_watt": 19.909,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139973.3768787,
+    "gpu_0_watt": 293.14,
+    "gpu_0_temp": 79,
+    "gpu_1_watt": 19.909,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139973.8792615,
+    "gpu_0_watt": 291.931,
+    "gpu_0_temp": 79,
+    "gpu_1_watt": 19.983,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139974.379821,
+    "gpu_0_watt": 289.822,
+    "gpu_0_temp": 79,
+    "gpu_1_watt": 19.983,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139974.884969,
+    "gpu_0_watt": 291.918,
+    "gpu_0_temp": 80,
+    "gpu_1_watt": 19.833,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139975.3878427,
+    "gpu_0_watt": 291.782,
+    "gpu_0_temp": 79,
+    "gpu_1_watt": 19.833,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139975.8884423,
+    "gpu_0_watt": 296.314,
+    "gpu_0_temp": 80,
+    "gpu_1_watt": 19.859,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139976.3904,
+    "gpu_0_watt": 292.772,
+    "gpu_0_temp": 79,
+    "gpu_1_watt": 19.859,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139976.8909812,
+    "gpu_0_watt": 293.05,
+    "gpu_0_temp": 80,
+    "gpu_1_watt": 19.985,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139977.3914204,
+    "gpu_0_watt": 291.797,
+    "gpu_0_temp": 80,
+    "gpu_1_watt": 19.985,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139977.891858,
+    "gpu_0_watt": 289.711,
+    "gpu_0_temp": 80,
+    "gpu_1_watt": 19.883,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139978.3923063,
+    "gpu_0_watt": 287.615,
+    "gpu_0_temp": 80,
+    "gpu_1_watt": 19.883,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139978.8930368,
+    "gpu_0_watt": 287.857,
+    "gpu_0_temp": 80,
+    "gpu_1_watt": 19.855,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139979.393637,
+    "gpu_0_watt": 293.525,
+    "gpu_0_temp": 80,
+    "gpu_1_watt": 19.855,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139979.9011152,
+    "gpu_0_watt": 289.875,
+    "gpu_0_temp": 80,
+    "gpu_1_watt": 19.986,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139980.4044054,
+    "gpu_0_watt": 288.803,
+    "gpu_0_temp": 80,
+    "gpu_1_watt": 19.986,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139980.90467,
+    "gpu_0_watt": 289.33,
+    "gpu_0_temp": 80,
+    "gpu_1_watt": 19.951,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139981.5844772,
+    "gpu_0_watt": 268.918,
+    "gpu_0_temp": 77,
+    "gpu_1_watt": 19.951,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139982.0926745,
+    "gpu_0_watt": 256.968,
+    "gpu_0_temp": 81,
+    "gpu_1_watt": 19.989,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139982.593035,
+    "gpu_0_watt": 265.586,
+    "gpu_0_temp": 80,
+    "gpu_1_watt": 19.989,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139983.0938408,
+    "gpu_0_watt": 292.657,
+    "gpu_0_temp": 81,
+    "gpu_1_watt": 20.087,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139983.5944774,
+    "gpu_0_watt": 287.652,
+    "gpu_0_temp": 81,
+    "gpu_1_watt": 20.087,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139984.0951438,
+    "gpu_0_watt": 288.61,
+    "gpu_0_temp": 81,
+    "gpu_1_watt": 19.93,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139984.5956044,
+    "gpu_0_watt": 289.503,
+    "gpu_0_temp": 81,
+    "gpu_1_watt": 19.93,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139985.0960572,
+    "gpu_0_watt": 289.467,
+    "gpu_0_temp": 81,
+    "gpu_1_watt": 19.885,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139985.5966933,
+    "gpu_0_watt": 291.218,
+    "gpu_0_temp": 81,
+    "gpu_1_watt": 19.885,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139986.0971403,
+    "gpu_0_watt": 291.228,
+    "gpu_0_temp": 82,
+    "gpu_1_watt": 19.974,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139986.597843,
+    "gpu_0_watt": 289.559,
+    "gpu_0_temp": 81,
+    "gpu_1_watt": 19.974,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139987.0982418,
+    "gpu_0_watt": 291.956,
+    "gpu_0_temp": 81,
+    "gpu_1_watt": 19.866,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139987.5986924,
+    "gpu_0_watt": 290.056,
+    "gpu_0_temp": 82,
+    "gpu_1_watt": 19.866,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139988.108265,
+    "gpu_0_watt": 289.657,
+    "gpu_0_temp": 82,
+    "gpu_1_watt": 19.835,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139988.608922,
+    "gpu_0_watt": 288.984,
+    "gpu_0_temp": 82,
+    "gpu_1_watt": 19.835,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139989.1120567,
+    "gpu_0_watt": 289.729,
+    "gpu_0_temp": 82,
+    "gpu_1_watt": 19.946,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139989.6127245,
+    "gpu_0_watt": 291.228,
+    "gpu_0_temp": 82,
+    "gpu_1_watt": 19.946,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139990.1136777,
+    "gpu_0_watt": 293.889,
+    "gpu_0_temp": 83,
+    "gpu_1_watt": 19.908,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139990.6152494,
+    "gpu_0_watt": 289.913,
+    "gpu_0_temp": 82,
+    "gpu_1_watt": 19.908,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139991.115564,
+    "gpu_0_watt": 289.129,
+    "gpu_0_temp": 82,
+    "gpu_1_watt": 19.935,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139991.623443,
+    "gpu_0_watt": 289.909,
+    "gpu_0_temp": 83,
+    "gpu_1_watt": 19.935,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139992.1290913,
+    "gpu_0_watt": 291.797,
+    "gpu_0_temp": 82,
+    "gpu_1_watt": 20.013,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139992.630604,
+    "gpu_0_watt": 291.568,
+    "gpu_0_temp": 83,
+    "gpu_1_watt": 20.013,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139993.1374295,
+    "gpu_0_watt": 292.195,
+    "gpu_0_temp": 83,
+    "gpu_1_watt": 19.875,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139993.6378808,
+    "gpu_0_watt": 292.792,
+    "gpu_0_temp": 83,
+    "gpu_1_watt": 19.875,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139994.1396446,
+    "gpu_0_watt": 290.414,
+    "gpu_0_temp": 83,
+    "gpu_1_watt": 19.85,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139994.642609,
+    "gpu_0_watt": 290.847,
+    "gpu_0_temp": 83,
+    "gpu_1_watt": 19.85,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139995.1438477,
+    "gpu_0_watt": 293.565,
+    "gpu_0_temp": 83,
+    "gpu_1_watt": 19.956,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139995.6449013,
+    "gpu_0_watt": 293.456,
+    "gpu_0_temp": 82,
+    "gpu_1_watt": 19.956,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139996.1459932,
+    "gpu_0_watt": 292.802,
+    "gpu_0_temp": 83,
+    "gpu_1_watt": 19.864,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139996.6470442,
+    "gpu_0_watt": 291.178,
+    "gpu_0_temp": 83,
+    "gpu_1_watt": 19.864,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139997.1474888,
+    "gpu_0_watt": 292.203,
+    "gpu_0_temp": 83,
+    "gpu_1_watt": 19.842,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139997.6484277,
+    "gpu_0_watt": 257.081,
+    "gpu_0_temp": 83,
+    "gpu_1_watt": 19.842,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139998.1492944,
+    "gpu_0_watt": 259.003,
+    "gpu_0_temp": 83,
+    "gpu_1_watt": 19.897,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139998.6497433,
+    "gpu_0_watt": 283.035,
+    "gpu_0_temp": 83,
+    "gpu_1_watt": 19.897,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139999.1505446,
+    "gpu_0_watt": 291.511,
+    "gpu_0_temp": 83,
+    "gpu_1_watt": 19.957,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773139999.6511145,
+    "gpu_0_watt": 290.29,
+    "gpu_0_temp": 83,
+    "gpu_1_watt": 19.957,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140000.1516876,
+    "gpu_0_watt": 292.442,
+    "gpu_0_temp": 83,
+    "gpu_1_watt": 20.034,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140000.652953,
+    "gpu_0_watt": 295.072,
+    "gpu_0_temp": 83,
+    "gpu_1_watt": 20.034,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140001.1596007,
+    "gpu_0_watt": 291.92,
+    "gpu_0_temp": 84,
+    "gpu_1_watt": 19.884,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140001.664561,
+    "gpu_0_watt": 292.803,
+    "gpu_0_temp": 84,
+    "gpu_1_watt": 19.884,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140002.166621,
+    "gpu_0_watt": 291.777,
+    "gpu_0_temp": 83,
+    "gpu_1_watt": 19.845,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140002.6670978,
+    "gpu_0_watt": 290.04,
+    "gpu_0_temp": 84,
+    "gpu_1_watt": 19.845,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140003.1675758,
+    "gpu_0_watt": 289.577,
+    "gpu_0_temp": 84,
+    "gpu_1_watt": 19.961,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140003.668019,
+    "gpu_0_watt": 291.469,
+    "gpu_0_temp": 84,
+    "gpu_1_watt": 19.961,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140004.1741529,
+    "gpu_0_watt": 292.879,
+    "gpu_0_temp": 84,
+    "gpu_1_watt": 19.903,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140004.676335,
+    "gpu_0_watt": 292.768,
+    "gpu_0_temp": 84,
+    "gpu_1_watt": 19.903,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140005.1817126,
+    "gpu_0_watt": 292.537,
+    "gpu_0_temp": 84,
+    "gpu_1_watt": 19.949,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140005.6826348,
+    "gpu_0_watt": 291.484,
+    "gpu_0_temp": 84,
+    "gpu_1_watt": 19.949,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140006.183493,
+    "gpu_0_watt": 292.755,
+    "gpu_0_temp": 84,
+    "gpu_1_watt": 20.029,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140006.683935,
+    "gpu_0_watt": 292.665,
+    "gpu_0_temp": 84,
+    "gpu_1_watt": 20.029,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140007.1843855,
+    "gpu_0_watt": 292.292,
+    "gpu_0_temp": 84,
+    "gpu_1_watt": 19.87,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140007.6848495,
+    "gpu_0_watt": 291.33,
+    "gpu_0_temp": 84,
+    "gpu_1_watt": 19.87,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140008.1853168,
+    "gpu_0_watt": 289.412,
+    "gpu_0_temp": 84,
+    "gpu_1_watt": 19.841,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140008.6857424,
+    "gpu_0_watt": 291.41,
+    "gpu_0_temp": 84,
+    "gpu_1_watt": 19.841,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140009.1867833,
+    "gpu_0_watt": 290.948,
+    "gpu_0_temp": 85,
+    "gpu_1_watt": 19.994,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140009.692119,
+    "gpu_0_watt": 293.308,
+    "gpu_0_temp": 84,
+    "gpu_1_watt": 19.994,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140010.1924903,
+    "gpu_0_watt": 294.055,
+    "gpu_0_temp": 84,
+    "gpu_1_watt": 19.932,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140010.693088,
+    "gpu_0_watt": 292.318,
+    "gpu_0_temp": 84,
+    "gpu_1_watt": 19.932,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140011.1935415,
+    "gpu_0_watt": 289.77,
+    "gpu_0_temp": 84,
+    "gpu_1_watt": 19.912,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140011.6946445,
+    "gpu_0_watt": 289.963,
+    "gpu_0_temp": 84,
+    "gpu_1_watt": 19.912,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140012.1950939,
+    "gpu_0_watt": 291.441,
+    "gpu_0_temp": 84,
+    "gpu_1_watt": 20.025,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140012.6955578,
+    "gpu_0_watt": 291.257,
+    "gpu_0_temp": 85,
+    "gpu_1_watt": 20.025,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140013.1962423,
+    "gpu_0_watt": 290.484,
+    "gpu_0_temp": 85,
+    "gpu_1_watt": 19.968,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140013.6993947,
+    "gpu_0_watt": 261.794,
+    "gpu_0_temp": 84,
+    "gpu_1_watt": 19.968,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140014.200997,
+    "gpu_0_watt": 261.103,
+    "gpu_0_temp": 84,
+    "gpu_1_watt": 20.073,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140014.7013848,
+    "gpu_0_watt": 293.09,
+    "gpu_0_temp": 85,
+    "gpu_1_watt": 20.073,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140015.2018156,
+    "gpu_0_watt": 290.928,
+    "gpu_0_temp": 85,
+    "gpu_1_watt": 20.131,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140015.7025814,
+    "gpu_0_watt": 291.381,
+    "gpu_0_temp": 85,
+    "gpu_1_watt": 20.131,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140016.2037013,
+    "gpu_0_watt": 291.199,
+    "gpu_0_temp": 85,
+    "gpu_1_watt": 19.882,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140016.7042046,
+    "gpu_0_watt": 291.634,
+    "gpu_0_temp": 85,
+    "gpu_1_watt": 19.882,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140017.2046788,
+    "gpu_0_watt": 290.314,
+    "gpu_0_temp": 84,
+    "gpu_1_watt": 19.909,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140017.7051084,
+    "gpu_0_watt": 289.89,
+    "gpu_0_temp": 85,
+    "gpu_1_watt": 19.909,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140018.2086213,
+    "gpu_0_watt": 290.606,
+    "gpu_0_temp": 85,
+    "gpu_1_watt": 20.063,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140018.7109997,
+    "gpu_0_watt": 291.907,
+    "gpu_0_temp": 85,
+    "gpu_1_watt": 20.063,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140019.211571,
+    "gpu_0_watt": 292.736,
+    "gpu_0_temp": 85,
+    "gpu_1_watt": 19.892,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140019.712053,
+    "gpu_0_watt": 294.445,
+    "gpu_0_temp": 84,
+    "gpu_1_watt": 19.892,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140020.2126234,
+    "gpu_0_watt": 292.213,
+    "gpu_0_temp": 84,
+    "gpu_1_watt": 19.865,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140020.7130678,
+    "gpu_0_watt": 294.735,
+    "gpu_0_temp": 85,
+    "gpu_1_watt": 19.865,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140021.2135162,
+    "gpu_0_watt": 292.827,
+    "gpu_0_temp": 85,
+    "gpu_1_watt": 20.009,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140021.7141519,
+    "gpu_0_watt": 293.222,
+    "gpu_0_temp": 85,
+    "gpu_1_watt": 20.009,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140022.2145674,
+    "gpu_0_watt": 290.821,
+    "gpu_0_temp": 85,
+    "gpu_1_watt": 19.938,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140022.7149656,
+    "gpu_0_watt": 288.563,
+    "gpu_0_temp": 85,
+    "gpu_1_watt": 19.987,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140023.2171743,
+    "gpu_0_watt": 292.525,
+    "gpu_0_temp": 85,
+    "gpu_1_watt": 19.987,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140023.7177832,
+    "gpu_0_watt": 289.279,
+    "gpu_0_temp": 85,
+    "gpu_1_watt": 20.046,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140024.218232,
+    "gpu_0_watt": 290.305,
+    "gpu_0_temp": 85,
+    "gpu_1_watt": 20.046,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140024.7189019,
+    "gpu_0_watt": 291.317,
+    "gpu_0_temp": 85,
+    "gpu_1_watt": 19.914,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140025.2226427,
+    "gpu_0_watt": 291.506,
+    "gpu_0_temp": 85,
+    "gpu_1_watt": 19.914,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140025.7231073,
+    "gpu_0_watt": 290.523,
+    "gpu_0_temp": 85,
+    "gpu_1_watt": 19.921,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140026.2235923,
+    "gpu_0_watt": 289.649,
+    "gpu_0_temp": 85,
+    "gpu_1_watt": 19.921,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140026.7240345,
+    "gpu_0_watt": 291.569,
+    "gpu_0_temp": 85,
+    "gpu_1_watt": 19.993,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140027.2244513,
+    "gpu_0_watt": 291.432,
+    "gpu_0_temp": 85,
+    "gpu_1_watt": 19.993,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140027.726536,
+    "gpu_0_watt": 290.561,
+    "gpu_0_temp": 85,
+    "gpu_1_watt": 19.852,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140028.233941,
+    "gpu_0_watt": 291.063,
+    "gpu_0_temp": 85,
+    "gpu_1_watt": 19.852,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140028.7348137,
+    "gpu_0_watt": 292.76,
+    "gpu_0_temp": 86,
+    "gpu_1_watt": 19.846,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140029.3490088,
+    "gpu_0_watt": 268.35,
+    "gpu_0_temp": 82,
+    "gpu_1_watt": 19.846,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140029.853427,
+    "gpu_0_watt": 260.199,
+    "gpu_0_temp": 85,
+    "gpu_1_watt": 20.002,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140030.3570259,
+    "gpu_0_watt": 269.093,
+    "gpu_0_temp": 85,
+    "gpu_1_watt": 20.002,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140030.8574626,
+    "gpu_0_watt": 288.545,
+    "gpu_0_temp": 85,
+    "gpu_1_watt": 19.932,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140031.3583112,
+    "gpu_0_watt": 286.538,
+    "gpu_0_temp": 85,
+    "gpu_1_watt": 19.932,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140031.8588243,
+    "gpu_0_watt": 285.768,
+    "gpu_0_temp": 86,
+    "gpu_1_watt": 19.885,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140032.3657994,
+    "gpu_0_watt": 286.14,
+    "gpu_0_temp": 85,
+    "gpu_1_watt": 19.885,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140032.867783,
+    "gpu_0_watt": 287.427,
+    "gpu_0_temp": 85,
+    "gpu_1_watt": 19.968,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140033.3685448,
+    "gpu_0_watt": 291.297,
+    "gpu_0_temp": 86,
+    "gpu_1_watt": 19.968,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140033.870167,
+    "gpu_0_watt": 289.59,
+    "gpu_0_temp": 85,
+    "gpu_1_watt": 19.918,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140034.3709326,
+    "gpu_0_watt": 288.876,
+    "gpu_0_temp": 86,
+    "gpu_1_watt": 19.918,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140034.8713882,
+    "gpu_0_watt": 290.404,
+    "gpu_0_temp": 85,
+    "gpu_1_watt": 19.86,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140035.3718455,
+    "gpu_0_watt": 290.662,
+    "gpu_0_temp": 86,
+    "gpu_1_watt": 19.86,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140035.878566,
+    "gpu_0_watt": 289.2,
+    "gpu_0_temp": 86,
+    "gpu_1_watt": 19.899,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140036.3838482,
+    "gpu_0_watt": 290.615,
+    "gpu_0_temp": 85,
+    "gpu_1_watt": 19.899,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140036.884294,
+    "gpu_0_watt": 289.965,
+    "gpu_0_temp": 86,
+    "gpu_1_watt": 19.81,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140037.384752,
+    "gpu_0_watt": 288.462,
+    "gpu_0_temp": 85,
+    "gpu_1_watt": 19.81,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140037.8880792,
+    "gpu_0_watt": 288.611,
+    "gpu_0_temp": 86,
+    "gpu_1_watt": 19.816,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140038.388871,
+    "gpu_0_watt": 289.86,
+    "gpu_0_temp": 85,
+    "gpu_1_watt": 19.816,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140038.889659,
+    "gpu_0_watt": 290.905,
+    "gpu_0_temp": 86,
+    "gpu_1_watt": 19.848,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140039.3909988,
+    "gpu_0_watt": 290.866,
+    "gpu_0_temp": 85,
+    "gpu_1_watt": 19.848,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140039.891435,
+    "gpu_0_watt": 291.142,
+    "gpu_0_temp": 86,
+    "gpu_1_watt": 19.895,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140040.3923242,
+    "gpu_0_watt": 293.104,
+    "gpu_0_temp": 86,
+    "gpu_1_watt": 19.895,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140040.8951654,
+    "gpu_0_watt": 293.957,
+    "gpu_0_temp": 86,
+    "gpu_1_watt": 19.993,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140041.3983111,
+    "gpu_0_watt": 294.524,
+    "gpu_0_temp": 86,
+    "gpu_1_watt": 19.993,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140041.8987381,
+    "gpu_0_watt": 297.699,
+    "gpu_0_temp": 86,
+    "gpu_1_watt": 19.84,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140042.399721,
+    "gpu_0_watt": 297.269,
+    "gpu_0_temp": 86,
+    "gpu_1_watt": 19.84,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140042.9021287,
+    "gpu_0_watt": 298.359,
+    "gpu_0_temp": 86,
+    "gpu_1_watt": 19.963,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140043.4026594,
+    "gpu_0_watt": 298.069,
+    "gpu_0_temp": 86,
+    "gpu_1_watt": 19.963,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140043.9031672,
+    "gpu_0_watt": 297.608,
+    "gpu_0_temp": 86,
+    "gpu_1_watt": 20.202,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140044.4036422,
+    "gpu_0_watt": 298.773,
+    "gpu_0_temp": 86,
+    "gpu_1_watt": 20.202,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140044.90409,
+    "gpu_0_watt": 298.406,
+    "gpu_0_temp": 86,
+    "gpu_1_watt": 20.103,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140045.4045343,
+    "gpu_0_watt": 297.542,
+    "gpu_0_temp": 86,
+    "gpu_1_watt": 20.103,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140045.905034,
+    "gpu_0_watt": 297.041,
+    "gpu_0_temp": 86,
+    "gpu_1_watt": 20.061,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140046.4054809,
+    "gpu_0_watt": 296.926,
+    "gpu_0_temp": 86,
+    "gpu_1_watt": 20.061,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140046.9068568,
+    "gpu_0_watt": 297.789,
+    "gpu_0_temp": 86,
+    "gpu_1_watt": 20.143,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140047.4073918,
+    "gpu_0_watt": 296.554,
+    "gpu_0_temp": 86,
+    "gpu_1_watt": 20.143,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140047.9083743,
+    "gpu_0_watt": 295.045,
+    "gpu_0_temp": 86,
+    "gpu_1_watt": 20.057,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140048.4088213,
+    "gpu_0_watt": 295.188,
+    "gpu_0_temp": 86,
+    "gpu_1_watt": 20.057,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140048.9092858,
+    "gpu_0_watt": 296.192,
+    "gpu_0_temp": 86,
+    "gpu_1_watt": 20.055,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140049.4097323,
+    "gpu_0_watt": 296.902,
+    "gpu_0_temp": 86,
+    "gpu_1_watt": 20.055,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140049.9101806,
+    "gpu_0_watt": 296.532,
+    "gpu_0_temp": 86,
+    "gpu_1_watt": 20.135,
+    "gpu_1_temp": 33
+  },
+  {
+    "timestamp": 1773140050.410637,
+    "gpu_0_watt": 295.573,
+    "gpu_0_temp": 86,
+    "gpu_1_watt": 20.135,
+    "gpu_1_temp": 33
+  }
+]
