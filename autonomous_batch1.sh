@@ -32,7 +32,7 @@ BASE_MODEL_DIR="models/Qwen2.5"
 ADAPTER_BASE_DIR="models/TokenSkip-Qwen2.5"
 
 # Cartella di Output
-OUTPUT_BASE="outputs_energy_exp_adaptive_batch_size"
+OUTPUT_BASE="outputs_energy_exp_batch_1_for_all"
 mkdir -p $OUTPUT_BASE
 
 # --- ATTIVAZIONE AMBIENTE VIRTUAL ---
@@ -43,6 +43,11 @@ echo " >> Ambiente virtuale tokenskip_env attivato."
 for SIZE in "${MODELS[@]}"; do
     echo "Configurazione modello: $SIZE"
 
+
+    #flat batch size
+    CURRENT_BATCH_SIZE=1
+    echo " >> The batch size for the model is: $CURRENT_BATCH_SIZE"
+='
     # ====================================================
     # LOGICA BATCH SIZE "ADATTIVA"
     # ====================================================
@@ -59,7 +64,7 @@ for SIZE in "${MODELS[@]}"; do
         CURRENT_BATCH_SIZE=64
         echo " >> Setting MAX batch size for 3B: $CURRENT_BATCH_SIZE"
     fi
-
+'
     # Definizione percorsi Modelli
     MODEL_REL_PATH="${BASE_MODEL_DIR}-${SIZE}-Instruct"
     MODEL_PATH="${ROOT_DIR}/${MODEL_REL_PATH}"
@@ -124,7 +129,7 @@ for SIZE in "${MODELS[@]}"; do
             
             python3 monitor_gpu.py --run-name "$RUN_NAME_ID" --output-dir "$EXP_DIR" --interval 0.5 &
             GPU_PID=$!
-            # ====================================================
+            # ----------------------------------------------
 
             # Entra nella directory del codice Python DOPO aver avviato i monitor
             cd TokenSkip || exit 1
@@ -158,11 +163,12 @@ for SIZE in "${MODELS[@]}"; do
             kill -2 $PDU_PID
             kill -2 $GPU_PID
             sleep 2 # Attesa per il flush su disco
-            # ====================================================
 
+            #----------------------------------------------
+            
             # END_TIME=$(date +%s)
 
-            # --- MODIFICA FONDAMENTALE (WARM START) ---
+            # MODIFICA FONDAMENTALE (WARM START)
             # Cerchiamo il file generato da Python che contiene l'orario post-caricamento
             TIMING_FILE="TokenSkip/timing_info.json"
             
@@ -226,7 +232,6 @@ done
         done
     done
     
-
     MERGED_MODEL_DIR="${ADAPTER_PATH}/merged_static_weights"
     if [ -d "$MERGED_MODEL_DIR" ]; then
         echo " >> FINAL CLEANING: Removing merged model for ${SIZE}."
@@ -234,6 +239,4 @@ done
     fi
 done
 
-echo "========================================================"
 echo " ALL EXPERIMENTS COMPLETED SUCCESSFULLY."
-echo "========================================================"
