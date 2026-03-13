@@ -80,8 +80,7 @@ def infer(args, test_data, answer_extraction_fn):
             trust_remote_code=True, 
             tensor_parallel_size=1, 
             max_model_len=4096, 
-            device="cuda",
-            max_num_seqs=args.eval_batch_size
+            device="cuda"
         )
         
         torch.cuda.synchronize()

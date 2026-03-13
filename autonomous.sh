@@ -36,13 +36,13 @@ OUTPUT_BASE="outputs_energy_exp_adaptive_batch_size"
 mkdir -p $OUTPUT_BASE
 
 # --- ATTIVAZIONE AMBIENTE VIRTUAL ---
-source /home/bd510854/first_try/tokenskip_env/bin/activate
+conda activate tokenskip_env
 echo " >> Ambiente virtuale tokenskip_env attivato."
 
 # --- INIZIO CICLI ---
 for SIZE in "${MODELS[@]}"; do
     echo "Configurazione modello: $SIZE"
-
+: '
     # ====================================================
     # LOGICA BATCH SIZE "ADATTIVA"
     # ====================================================
@@ -59,6 +59,7 @@ for SIZE in "${MODELS[@]}"; do
         CURRENT_BATCH_SIZE=64
         echo " >> Setting MAX batch size for 3B: $CURRENT_BATCH_SIZE"
     fi
+    '
 
     # Definizione percorsi Modelli
     MODEL_REL_PATH="${BASE_MODEL_DIR}-${SIZE}-Instruct"
@@ -86,10 +87,11 @@ for SIZE in "${MODELS[@]}"; do
         if [ "$BENCH" == "math" ]; then MAX_TOKENS=1024; else MAX_TOKENS=512; fi
 
         for RATIO in "${RATIOS[@]}"; do
+        : '
             echo "--------------------------------------------------------"
             echo "START: Model ${SIZE} - Ratio ${RATIO} (Batch: ${CURRENT_BATCH_SIZE})"
             echo "--------------------------------------------------------"
-
+        '
             # Crea cartella specifica
             EXP_DIR="${ROOT_DIR}/${OUTPUT_BASE}/${SIZE}/${BENCH}/cr_${RATIO}"
             mkdir -p "$EXP_DIR"

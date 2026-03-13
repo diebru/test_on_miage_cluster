@@ -32,7 +32,7 @@ BASE_MODEL_DIR="models/Qwen2.5"
 ADAPTER_BASE_DIR="models/TokenSkip-Qwen2.5"
 
 # Cartella di Output
-OUTPUT_BASE="outputs_energy_exp_batch_1_for_all"
+OUTPUT_BASE="outputs_energy_exp_batch_1_for_all_2nd_try"
 mkdir -p $OUTPUT_BASE
 
 # --- ATTIVAZIONE AMBIENTE VIRTUAL ---
@@ -47,7 +47,7 @@ for SIZE in "${MODELS[@]}"; do
     #flat batch size
     CURRENT_BATCH_SIZE=1
     echo " >> The batch size for the model is: $CURRENT_BATCH_SIZE"
-='
+: '
     # ====================================================
     # LOGICA BATCH SIZE "ADATTIVA"
     # ====================================================
@@ -172,7 +172,7 @@ for SIZE in "${MODELS[@]}"; do
             # Cerchiamo il file generato da Python che contiene l'orario post-caricamento
             TIMING_FILE="TokenSkip/timing_info.json"
             
-            : '
+: '
             if [ -f "$TIMING_FILE" ]; then
                 # Usiamo Python inline per leggere il JSON in modo sicuro
                 REAL_START_TIME=$(python3 -c "import json; print(json.load(open('$TIMING_FILE'))['start_inference'])")
