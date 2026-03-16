@@ -1,24 +1,6 @@
 #!/bin/bash
-
 # Usa SOLO la GPU 0 (Massima efficienza, evita overhead multi-gpu)
 export CUDA_VISIBLE_DEVICES=0
-
-: '
-# Controllo password Grid5000
-if [ -z "$G5K_PASSWORD" ]; then
-    echo "ERROR: Password Missed (G5K_PASSWORD)"
-    exit 1
-fi
-
-G5K_USER="dbruno"
-SITE="lyon"
-NODE_NAME=$(hostname -s)
-ROOT_DIR=$(pwd)
-
-echo "========================================================"
-echo " EXPERIMENT START (Optimized) ON: $NODE_NAME "
-echo "========================================================"
-'
 
 # Set variabili base (poiché il blocco sopra è commentato)
 NODE_NAME=$(hostname -s)
@@ -32,34 +14,27 @@ BASE_MODEL_DIR="models/Qwen2.5"
 ADAPTER_BASE_DIR="models/TokenSkip-Qwen2.5"
 
 # Cartella di Output
-OUTPUT_BASE="outputs_energy_exp_adaptive_batch_size"
+OUTPUT_BASE="outputs_energy_exp"
 mkdir -p $OUTPUT_BASE
-
-# --- ATTIVAZIONE AMBIENTE VIRTUAL ---
-conda activate tokenskip_env
-echo " >> Ambiente virtuale tokenskip_env attivato."
 
 # --- INIZIO CICLI ---
 for SIZE in "${MODELS[@]}"; do
     echo "Configurazione modello: $SIZE"
-: '
-    # ====================================================
-    # LOGICA BATCH SIZE "ADATTIVA"
-    # ====================================================
+    # LOGICA BATCH SIZE "adattiva" IN MODO CHE sia 16 per 3B e 7B e 8 per il modello 14B, così evitiamo la preemption
     if [ "$SIZE" == "14B" ]; then
         # 14B: Usiamo 8
         CURRENT_BATCH_SIZE=8
         echo " >> Setting SAFE batch size for 14B: $CURRENT_BATCH_SIZE"
     elif [ "$SIZE" == "7B" ]; then
-        # 7B: Usiamo 32 (Veloce e stabile)
-        CURRENT_BATCH_SIZE=32
+        # 7B: Usiamo 16 (Veloce e stabile)
+        CURRENT_BATCH_SIZE=16
         echo " >> Setting FAST batch size for 7B: $CURRENT_BATCH_SIZE"
     else
-        # 3B: Usiamo 64 (Massima velocità)
-        CURRENT_BATCH_SIZE=64
+        # 3B: Usiamo 16 (Massima velocità)
+        CURRENT_BATCH_SIZE=16
         echo " >> Setting MAX batch size for 3B: $CURRENT_BATCH_SIZE"
     fi
-    '
+
 
     # Definizione percorsi Modelli
     MODEL_REL_PATH="${BASE_MODEL_DIR}-${SIZE}-Instruct"
@@ -87,11 +62,6 @@ for SIZE in "${MODELS[@]}"; do
         if [ "$BENCH" == "math" ]; then MAX_TOKENS=1024; else MAX_TOKENS=512; fi
 
         for RATIO in "${RATIOS[@]}"; do
-        : '
-            echo "--------------------------------------------------------"
-            echo "START: Model ${SIZE} - Ratio ${RATIO} (Batch: ${CURRENT_BATCH_SIZE})"
-            echo "--------------------------------------------------------"
-        '
             # Crea cartella specifica
             EXP_DIR="${ROOT_DIR}/${OUTPUT_BASE}/${SIZE}/${BENCH}/cr_${RATIO}"
             mkdir -p "$EXP_DIR"
@@ -116,9 +86,6 @@ for SIZE in "${MODELS[@]}"; do
                 ADAPTER_PATH_ARG="--adapter-path ${ADAPTER_PATH}"
             fi
 
-            # Timestamp Inizio Script (Fallback)
-            # START_TIME=$(date +%s)
-            
             # AVVIO MONITOR ENERGETICI PYTHON (Dalla root, prima di entrare in TokenSkip)
             echo " >> Avvio monitor PDU e GPU in background..."
             python3 monitor_pdu.py --run-name "$RUN_NAME_ID" --output-dir "$EXP_DIR" --interval 0.5 &
@@ -159,28 +126,11 @@ for SIZE in "${MODELS[@]}"; do
             echo " >> Inferenza terminata. Arresto monitor esterni..."
             kill -2 $PDU_PID
             kill -2 $GPU_PID
-            sleep 2 # Attesa per il flush su disco
-            # ====================================================
-
-            # END_TIME=$(date +%s)
+            sleep 5 # Attesa per il flush su disco
 
             # --- MODIFICA FONDAMENTALE (WARM START) ---
             # Cerchiamo il file generato da Python che contiene l'orario post-caricamento
             TIMING_FILE="TokenSkip/timing_info.json"
-            
-            : '
-            if [ -f "$TIMING_FILE" ]; then
-                # Usiamo Python inline per leggere il JSON in modo sicuro
-                REAL_START_TIME=$(python3 -c "import json; print(json.load(open('$TIMING_FILE'))['start_inference'])")
-                echo " >> ACCURATE TIMING: Using Python start time (Warm Start): $REAL_START_TIME"
-            else
-                # Fallback se il file non cè (es. errore o crash)
-                REAL_START_TIME=$START_TIME
-                echo " >> WARNING: Accurate timing file not found. Using script start time (Cold Start)."
-            fi
-            '
-            
-            # ------------------------------------------
             if [ -f "$TIMING_FILE" ]; then
                 # Spostiamo il file nella cartella di output così lo hai per i grafici
                 mv "$TIMING_FILE" "${EXP_DIR}/inference_timing.json"
@@ -200,31 +150,6 @@ for SIZE in "${MODELS[@]}"; do
             # echo "Inference finished. Waiting for sync..."
             # sleep 10
 
-            # === DOWNLOAD METRICHE (WATT + BMC) ===
-            # Nota: Ora usiamo REAL_START_TIME
-
-: '
-            curl -k -s -u "${G5K_USER}:${G5K_PASSWORD}" \
-            "https://api.grid5000.fr/stable/sites/${SITE}/metrics?nodes=${NODE_NAME}&metrics=wattmetre_power_watt&start_time=${REAL_START_TIME}&end_time=${END_TIME}" \
-            > "${EXP_DIR}/metrics_watt.json"
-
-            curl -k -s -u "${G5K_USER}:${G5K_PASSWORD}" \
-            "https://api.grid5000.fr/stable/sites/${SITE}/metrics?nodes=${NODE_NAME}&metrics=bmc_node_power_watt&start_time=${REAL_START_TIME}&end_time=${END_TIME}" \
-            > "${EXP_DIR}/metrics_bmc.json"
-
-            echo " Data saved."
-
-            rm -f "$TIMING_FILE" # I remove the timing file to avoid confusion in the next iteration. Each run will create a new one if needed.
-        done
-    done
-    # ---Clean: after used the static weight for each model size, I remove them) ---
-    MERGED_MODEL_DIR="${ADAPTER_PATH}/merged_static_weights"
-    if [ -d "$MERGED_MODEL_DIR" ]; then
-        echo " >> FINAL CLEANING: Removing merged model for ${SIZE} after all ratios completed."
-        rm -rf "$MERGED_MODEL_DIR"
-    fi
-done
-'
         done
     done
     
@@ -236,6 +161,4 @@ done
     fi
 done
 
-echo "========================================================"
-echo " ALL EXPERIMENTS COMPLETED SUCCESSFULLY."
-echo "========================================================"
+echo " ALL EXPERIMENTS COMPLETED (hopefully) SUCCESSFULLY."

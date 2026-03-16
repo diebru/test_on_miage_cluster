@@ -1,0 +1,20 @@
+ >> Loading model...
+INFO 03-16 15:08:37 config.py:350] This model supports multiple tasks: {'embedding', 'generate'}. Defaulting to 'generate'.
+INFO 03-16 15:08:37 llm_engine.py:249] Initializing an LLM engine (v0.6.4.post1) with config: model='/home/bd510854/first_try/models/TokenSkip-Qwen2.5-7B-Instruct-GSM8K/merged_static_weights', speculative_config=None, tokenizer='/home/bd510854/first_try/models/TokenSkip-Qwen2.5-7B-Instruct-GSM8K/merged_static_weights', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, override_neuron_config=None, tokenizer_revision=None, trust_remote_code=True, dtype=torch.float16, max_seq_len=4096, download_dir=None, load_format=LoadFormat.AUTO, tensor_parallel_size=1, pipeline_parallel_size=1, disable_custom_all_reduce=False, quantization=None, enforce_eager=False, kv_cache_dtype=auto, quantization_param_path=None, device_config=cuda, decoding_config=DecodingConfig(guided_decoding_backend='outlines'), observability_config=ObservabilityConfig(otlp_traces_endpoint=None, collect_model_forward_time=False, collect_model_execute_time=False), seed=0, served_model_name=/home/bd510854/first_try/models/TokenSkip-Qwen2.5-7B-Instruct-GSM8K/merged_static_weights, num_scheduler_steps=1, chunked_prefill_enabled=False multi_step_stream_outputs=True, enable_prefix_caching=False, use_async_output_proc=True, use_cached_outputs=False, chat_template_text_format=string, mm_processor_kwargs=None, pooler_config=None)
+INFO 03-16 15:08:37 selector.py:135] Using Flash Attention backend.
+INFO 03-16 15:08:38 model_runner.py:1072] Starting to load model /home/bd510854/first_try/models/TokenSkip-Qwen2.5-7B-Instruct-GSM8K/merged_static_weights...
+Loading safetensors checkpoint shards:   0% Completed | 0/4 [00:00<?, ?it/s]
+Loading safetensors checkpoint shards:  25% Completed | 1/4 [00:00<00:00,  5.36it/s]
+Loading safetensors checkpoint shards:  50% Completed | 2/4 [00:00<00:01,  1.93it/s]
+Loading safetensors checkpoint shards:  75% Completed | 3/4 [00:01<00:00,  1.61it/s]
+Loading safetensors checkpoint shards: 100% Completed | 4/4 [00:02<00:00,  1.43it/s]
+Loading safetensors checkpoint shards: 100% Completed | 4/4 [00:02<00:00,  1.60it/s]
+
+INFO 03-16 15:08:41 model_runner.py:1077] Loading model weights took 14.2487 GB
+INFO 03-16 15:08:42 worker.py:232] Memory profiling results: total_gpu_memory=47.53GiB initial_memory_usage=14.89GiB peak_torch_memory=15.66GiB memory_usage_post_profile=14.91GiB non_torch_memory=0.65GiB kv_cache_size=26.46GiB gpu_memory_utilization=0.90
+INFO 03-16 15:08:42 gpu_executor.py:113] # GPU blocks: 30966, # CPU blocks: 4681
+INFO 03-16 15:08:42 gpu_executor.py:117] Maximum concurrency for 4096 tokens per request: 120.96x
+INFO 03-16 15:08:45 model_runner.py:1400] Capturing cudagraphs for decoding. This may lead to unexpected consequences if the model is not static. To run the model in eager mode, set 'enforce_eager=True' or use '--enforce-eager' in the CLI.
+INFO 03-16 15:08:45 model_runner.py:1404] If out-of-memory error occurs during cudagraph capture, consider decreasing `gpu_memory_utilization` or switching to eager mode. You can also reduce the `max_num_seqs` as needed to decrease memory usage.
+INFO 03-16 15:08:56 model_runner.py:1518] Graph capturing finished in 11 secs, took 0.23 GiB
+Processed prompts:   0%|          | 0/1319 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s]Processed prompts:   0%|          | 1/1319 [00:09<3:23:23,  9.26s/it, est. speed input: 9.50 toks/s, output: 11.02 toks/s]

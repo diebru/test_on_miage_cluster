@@ -1,0 +1,7 @@
+{
+    "n_samples": 1319,
+    "accuracy": 0.9166034874905231,
+    "avg_cot_length": 179.7877179681577,
+    "sample_latency": 1.133716898311531,
+    "total_inference_time": 1495.3725888729095
+}

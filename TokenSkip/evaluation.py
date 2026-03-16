@@ -80,8 +80,7 @@ def infer(args, test_data, answer_extraction_fn):
             trust_remote_code=True, 
             tensor_parallel_size=1, 
             max_model_len=4096, 
-            device="cuda",
-            max_num_seqs=args.eval_batch_size
+            device="cuda"
         )
         
         torch.cuda.synchronize()
@@ -160,10 +159,13 @@ if __name__ == "__main__":
         # Scoring & Save
         labels = [eval_math(item) for item in results]
         for item, label in zip(results, labels): item['accuracy'] = label
+        total_cot_length = sum(item['cot_length'] for item in results)
+        avg_cot_length = total_cot_length / len(results) if len(results) > 0 else 0
         
         with open(os.path.join(args.output_dir, "metrics.json"), "w") as fout:
             json.dump({
                 "n_samples": len(results),
                 "accuracy": sum(labels) / len(results),
-                "total_inference_time": total_time
+                "total_inference_time": total_time,
+                "avg_cot_length": avg_cot_length, # Aggiunta la nuova metrica al JSON
             }, fout, indent=4)
